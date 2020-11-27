@@ -1,0 +1,7 @@
+.page-container {
+  height: 100vh;
+  overflow: scroll;
+  background-image: linear-gradient(0deg,#f7f7f7 23.8%,#fcdddd 92%);
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}

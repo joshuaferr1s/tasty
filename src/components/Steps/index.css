@@ -1,0 +1,16 @@
+.step-list {
+  list-style-type: none;
+}
+.step-list li {
+  position: relative;
+  margin-bottom: 20px;
+}
+.step-list p {
+  padding-left: 60px;
+  font-size: 1rem;
+}
+.step-list span {
+  position: absolute;
+  font-size: 2rem;
+  color: #ccc;
+}

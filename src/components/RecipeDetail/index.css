@@ -1,0 +1,70 @@
+.recipeDetail {
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: 
+    'left left right right right right'
+    'bottom bottom bottom bottom bottom bottom';
+  grid-gap: 1rem;
+  padding: 1rem;
+  width: 75%;
+  border-radius: 15px;
+  box-shadow: 0 20px 20px 0 rgba(252,169,169,.6);
+  background-color: white;
+  color: black;
+}
+
+.recipeDetail .list-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  font-family: 'Galada', cursive;
+}
+
+.leftPanel {
+  grid-area: left;
+  min-width: 100%;
+}
+
+.leftPanel .title {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Galada', cursive;
+}
+
+.leftPanel .info {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.leftPanel hr {
+  width: 50%;
+  margin: .5rem auto;
+}
+
+.rightPanel {
+  grid-area: right;
+}
+
+.bottomPanel {
+  grid-area: bottom;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.bottomPanel .backLink {
+  display: block;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  border: solid black 1px;
+  cursor: pointer;
+  transition: scale 1s ease-in-out;
+  margin: .5rem auto;
+  width: 10rem;
+  text-align: center;
+  background-color: transparent;
+}
+
+.bottomPanel .backLink:hover {
+  transform: scale(1.05);
+}
