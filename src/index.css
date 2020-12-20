@@ -6,6 +6,11 @@ html, body, * {
   padding: 0;
   box-sizing: border-box;
 }
+
+html, body {
+  background-color: #545e75;
+}
+
 #root {
   font-family: 'Source Code Pro', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
