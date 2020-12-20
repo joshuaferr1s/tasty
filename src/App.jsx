@@ -11,6 +11,7 @@ import Recipes from './views/Recipes';
 import Recipe from './views/Recipe';
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [state, setState] = useContext(Context);
 
   useEffect(() => {

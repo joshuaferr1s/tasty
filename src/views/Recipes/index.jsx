@@ -4,6 +4,7 @@ import RecipeCard from '../../components/RecipeCard';
 import './index.css';
 
 function Recipes() {
+  // eslint-disable-next-line no-unused-vars
   const [state, setState] = useContext(Context);
 
   return (

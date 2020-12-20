@@ -5,6 +5,7 @@ import { Context } from '../../Store';
 import RecipeComp from '../../components/RecipeDetail';
 
 function Recipe() {
+  // eslint-disable-next-line no-unused-vars
   const [state, setState] = useContext(Context);
   let [loading, setLoading] = useState(true);
   let [recipe, setRecipe] = useState(undefined);
