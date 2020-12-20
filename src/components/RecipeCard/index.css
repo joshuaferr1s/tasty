@@ -1,25 +1,23 @@
-.recipe {
-  margin: 2vh 0;
-  display: flex;
-  flex-direction: column;
+.recipes .recipe {
+  margin: 2vmin 0;
+  padding: 1vmin 1.5vmin;
   width: 30vw;
-  border-radius: 15px;
-  padding: 20px 30px;
-  box-shadow: 0 20px 20px 0 rgba(252,169,169,.6);
-  background-color: white;
-  color: black;
-  transition: scale 0.3s ease-in-out;
+  border-radius: 2vmin;
+  background-color: #f9f9f9;
+  box-shadow: 0 1vmin 1vmin 0 rgba(249, 249, 249,.6);
   cursor: pointer;
 }
-.recipe:hover {
-  transform: scale(1.05);
+
+.recipes .recipe:hover {
+  transform: scale(1.01);
 }
-.recipe h2 {
+
+.recipes .recipe h2 {
   font-family: 'Galada', cursive;
 }
+
 @media only screen and (max-width: 1000px) {
-  .recipe {
+  .recipes .recipe {
     width: 100%;
-    margin: 2vh 0;
   }
 }
